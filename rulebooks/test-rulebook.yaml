@@ -10,7 +10,7 @@
 
   rules:
     - name: Say Hello
-      condition: event.meta.headers is defined
+      condition: event.payload.message == "Ansible is cool"
       action:
         run_job_template:
           name: SayHello
