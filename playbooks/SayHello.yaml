@@ -1,0 +1,8 @@
+---
+- name: Say Hello
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - debug: "Say Hello"
+        msg: "Hello it works!"
