@@ -4,5 +4,6 @@
   gather_facts: false
 
   tasks:
-    - debug: "Say Hello"
-      msg: "Hello it works!"
+    - name: Say Hello
+      debug:
+        msg: "Hello it works!"
