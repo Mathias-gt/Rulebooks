@@ -12,10 +12,3 @@
       debug:
         msg: "{{ sentence }}"
 
-    - name: Debug Variables
-      debug:
-        msg: "{{ sentence }}"
-
-    - name: Debug Variables
-      debug:
-        msg: "{{ ansible_eda.event }}"
