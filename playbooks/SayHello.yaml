@@ -10,4 +10,4 @@
 
     - name: Debug Variables
       debug:
-        msg: "{{ ansible_eda.event }}"
+        msg: "{{ event }}"
