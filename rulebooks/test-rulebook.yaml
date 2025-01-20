@@ -17,5 +17,4 @@
           organization: Default
           job_args:
             extra_vars:
-              sentence: event.payload.message
-              testevent: event.payload
+              sentence: "{{ event.payload.message }}"
