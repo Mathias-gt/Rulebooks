@@ -10,7 +10,7 @@
 
     - name: Debug Variables
       debug:
-        msg: "{{ testevent }}"
+        msg: "{{ extra_vars }}"
 
     - name: Debug Variables
       debug:

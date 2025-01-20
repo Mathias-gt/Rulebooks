@@ -18,4 +18,4 @@
           job_args:
             extra_vars:
               sentence: event.payload.message
-              testevent: event
+              testevent: event.payload
