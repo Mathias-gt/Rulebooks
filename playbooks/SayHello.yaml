@@ -7,3 +7,7 @@
     - name: Say Hello
       debug:
         msg: "Hello it works!"
+
+    - name: Debug Variables
+      debug:
+        msg: "{{ ansible_eda.event }}"
