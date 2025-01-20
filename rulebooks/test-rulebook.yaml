@@ -15,3 +15,7 @@
         run_job_template:
           name: SayHello
           organization: Default
+          job_args:
+            extra_vars:
+              sentence: event.payload.message
+              testevent: event
