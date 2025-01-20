@@ -10,7 +10,7 @@
 
     - name: Debug Variables
       debug:
-        msg: "{{ extra_vars }}"
+        msg: "{{ sentence }}"
 
     - name: Debug Variables
       debug:
